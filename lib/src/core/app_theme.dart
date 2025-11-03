@@ -6,7 +6,7 @@ class AppTheme {
     ThemeData base = ThemeData.light();
 
     return base.copyWith(
-      backgroundColor: Colors.white,
+      // backgroundColor: Colors.white,
       scaffoldBackgroundColor: Colors.white,
       cardColor: Colors.white,
       textTheme: base.textTheme.copyWith(
@@ -25,7 +25,7 @@ class AppTheme {
     ThemeData base = ThemeData.dark();
 
     return base.copyWith(
-      backgroundColor: Colors.black,
+      // backgroundColor: Colors.black,
       scaffoldBackgroundColor: Colors.black,
       cardColor: Colors.black,
       textTheme: base.textTheme.copyWith(

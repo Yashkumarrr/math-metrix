@@ -4,18 +4,17 @@ import 'package:mathgame/src/data/models/dashboard.dart';
 import 'package:mathgame/src/ui/calculator/calculator_view.dart';
 import 'package:mathgame/src/ui/correctAnswer/correct_answer_view.dart';
 import 'package:mathgame/src/ui/dashboard/dashboard_view.dart';
+import 'package:mathgame/src/ui/guessTheSign/guess_sign_view.dart';
 import 'package:mathgame/src/ui/home/home_view.dart';
-import 'package:mathgame/src/ui/home/home_view1.dart';
 import 'package:mathgame/src/ui/magicTriangle/magic_triangle_view.dart';
 import 'package:mathgame/src/ui/mathGrid/math_grid_view.dart';
 import 'package:mathgame/src/ui/mathPairs/math_pairs_view.dart';
 import 'package:mathgame/src/ui/mentalArithmetic/mental_arithmetic_view.dart';
-import 'package:mathgame/src/ui/picturePuzzle/picture_puzzle_view.dart';
 import 'package:mathgame/src/ui/numberPyramid/number_pyramid_view.dart';
+import 'package:mathgame/src/ui/picturePuzzle/picture_puzzle_view.dart';
 import 'package:mathgame/src/ui/quickCalculation/quick_calculation_view.dart';
 import 'package:mathgame/src/ui/splash/splash_view.dart';
 import 'package:mathgame/src/ui/squareRoot/square_root_view.dart';
-import 'package:mathgame/src/ui/guessTheSign/guess_sign_view.dart';
 import 'package:tuple/tuple.dart';
 
 var appRoutes = {
